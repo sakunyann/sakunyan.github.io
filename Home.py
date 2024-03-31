@@ -10,7 +10,7 @@ st.set_page_config(page_title="Sakunyann's Data Science Portfolio",
 st.title(":bar_chart: WELCOME TO SAKUNYANN'S DATA SCIENCE PORTFOLIO!")
 # Display a header that briefly describes the web apps, with a rocket emoji
 st.write('')
-st.subheader(":rocket: An Unofficial Platform For Custom Web Applications Hosted By Streamlit")
+st.subheader(":rocket: An Unofficial Platform For Custom Web Applications Hosted With Streamlit")
 # Display a subheader that indicates the author of the web apps, with a sunglasses emoji
 st.write(':memo: By Sakura Koffron')
 
