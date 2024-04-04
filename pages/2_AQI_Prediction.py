@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 # set page config
 st.set_page_config(page_title="AQI Prediction",
                    page_icon=":wind_blowing_face:",
-                   layout='centered',
+                   layout='wide',
                    initial_sidebar_state="auto")
 
 st.title('Welcome to the AQI Prediction App! ')
