@@ -17,23 +17,28 @@ Throughout the data analysis process, two datasets containing atmospheric measur
 ## Analysis and Data Modeling
 The correlation matrix revealed notable relationships between pollutants and AQI values, suggesting that higher concentrations of certain pollutants are associated with poorer air quality.
 
+<div align="center">
 <img src="https://github.com/sakunyann/sakunyan.github.io/blob/main/assets/aqi_corr_matrix.png" width="500" height="500">
 
 *Correlation matrix of all variables in the initial analysis.*
-
-<br>
-
-The visualizations provided insights into the distribution of main pollutants and the breakdown of AQI values into different categories, highlighting the prevalence of air quality levels over time. 
-
-<img src="https://github.com/sakunyann/sakunyan.github.io/blob/main/assets/aqi_over_time.png" width="800">
-
-*AQI values for AQI, CO AQI, NO2 AQI, and O3 AQI over time.*
+</div>
 
 <br><br>
 
+The visualizations provided insights into the distribution of main pollutants and the breakdown of AQI values into different categories, highlighting the prevalence of air quality levels over time. 
+<div align="center">
+<img src="https://github.com/sakunyann/sakunyan.github.io/blob/main/assets/aqi_over_time.png" width="800">
+
+*AQI values for AQI, CO AQI, NO2 AQI, and O3 AQI over time.*
+</div>
+
+<br><br>
+
+<div align="center">
 <img src="https://github.com/sakunyann/sakunyan.github.io/blob/main/assets/pairplot_allaqis.png" width="800">
 
 *Pairplot of AQI, CO AQI, NO2 AQI, and O3 AQI.* 
+</div>
 
 <br>
 
@@ -43,10 +48,12 @@ The model was trained using a linear regression model. The performance of the mo
 - Mean Absolute Error: 5.099757167185006
 
 In the concluding phase of the analysis, the significance of each feature in the linear regression model was scrutinized. It was discerned that tropospheric NO2 emerged as the most influential factor in this model.
- 
+
+<div align="center">
 <img src="https://github.com/sakunyann/sakunyan.github.io/blob/main/assets/lr_feature_importance.png" width="500">
 
 *Linear regression model feature importance comparison.*
+</div>
 
 The dataset is now ready for further analysis to uncover trends and insights into air quality over time, which could inform environmental studies and public health policy-making.
 
@@ -54,3 +61,7 @@ The dataset is now ready for further analysis to uncover trends and insights int
 
 ## Disclaimer
 This project is for portfolio purposes only. It was trained on a limited dataset and should not be used for making real-world decisions without further validation.
+
+
+
+
